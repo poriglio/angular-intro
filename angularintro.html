@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app="firstModule">
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+		<title>
+			Intro to Angular
+		</title>
+		<link rel="stylesheet" type="text/css" href="angularintro.css">
+		<meta charset="utf-8">
+	</head>
+	<body ng-controller="firstController">
+		<h1>
+			{{title}}
+		</h1>
+		<p>
+			Here I am, practicing angular... let's see how this goes...
+		</p>
+		<button class="button" type="button" ng-class="buttonColor" ng-click="whenClicked()">Whatever do I do?</button>
+		<input ng-model="buttonColor"></input>
+		<script src="angularintro.js"></script>
+		<h1 class="hidden" ng-class="visibility">If you can read me, you know angular!</h1>
+		<button class="button" type="button" ng-class="buttonColor" ng-click="whenClicked2()">What about me? What do I do?!</button>
+		<ul ng-show="visibility2">
+			<li>You're so smart!</li>
+			<li>Give yourself a pat on the back!</li>
+			<li>You got this!!!</li>
+		</ul>
+	</body>
+</html>

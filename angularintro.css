@@ -1,0 +1,23 @@
+.button{
+	padding: 12px 35px;
+	border-radius: 9px;
+	font-size: 13pt;
+	color: white;
+	border-style: none;
+}
+
+.dodgerblue{
+	background: dodgerblue;
+}
+
+.magenta{
+	background: magenta;
+}
+
+.hidden{
+	display: none;
+}
+
+.surprise{
+	display: block;
+}

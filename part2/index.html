@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="dogModule">
+	<head>
+		<title>
+			Angular Intro Part II
+		</title>
+		<meta charset="utf-8">
+		<link href="styles.css" rel="stylesheet" type="text/css">
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	</head>
+	<body ng-controller="dogController">
+		<ul>
+			<li ng-hide="noWalmart()"><a ng-href="http://www.walmart.com" ng-click="onClick($event)">Photos</a></li>
+			<li ng-hide="noWalmart()"><a ng-href="http://www.walmart.com" ng-click="onClick($event)">Contact</a></li>
+			<li ng-hide="noWalmart()"><a ng-href="http://www.walmart.com" ng-click="onClick($event)">Press</a></li>
+		</ul>
+		<h1>
+			The Spectacular Adventures of Baby and Gracie{{excite}}
+		</h1>
+		<p ng-mouseenter="hoverColor()" ng-mouseleave="exitHoverColor()" ng-class="colorChange">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed sapien ut lorem tempus ornare in sit amet libero. Quisque efficitur malesuada mauris, sed efficitur ipsum eleifend quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean finibus odio nec turpis efficitur, a vulputate nunc varius. Fusce ipsum nibh, condimentum sed urna ut, eleifend suscipit enim. Morbi nec auctor nunc. Etiam tempus elit diam, vel semper justo ultrices nec. Quisque efficitur ut erat non fringilla. Maecenas quis posuere leo. Vestibulum interdum nulla non lectus placerat fringilla. Morbi rhoncus ipsum lectus, vitae porttitor ligula tristique ac. Phasellus gravida metus sapien, ut tempus ex semper nec. Aliquam ac malesuada mauris, at rutrum felis. Mauris mollis lorem nulla, ac consequat ligula sollicitudin et. Aliquam erat volutpat.
+		</p>
+		<h2>
+			That time they ran away together&#133;{{excite}}
+		</h2>
+		<p ng-mouseenter="hoverColor()" ng-mouseleave="exitHoverColor()"  ng-class="colorChange">
+			Nulla tempor vitae nisi aliquet lobortis. In quis suscipit nulla. Pellentesque vitae elit vel magna pretium maximus. Quisque ut erat maximus, gravida velit ac, luctus ligula. Nulla laoreet eros sit amet erat tempus, et placerat dolor sodales. In hac habitasse platea dictumst. Vestibulum mauris tellus, mollis in eros nec, vulputate tincidunt sem. Quisque interdum velit metus, at sodales purus viverra in. Quisque fringilla mauris sit amet tellus ornare, ut ultrices magna dapibus. Proin sed egestas lorem, quis tempus ligula. Nunc accumsan risus et turpis dictum, malesuada fringilla arcu feugiat. Maecenas semper mauris urna, quis consectetur est accumsan ut. In tincidunt ex nec lorem rutrum, sit amet convallis ipsum aliquet.
+		</p>
+		<p ng-mouseenter="hoverColor()"  ng-mouseleave="exitHoverColor()" ng-class="colorChange">
+			Integer nisl tortor, sollicitudin nec odio quis, commodo pellentesque odio. Fusce vehicula ligula ipsum, nec laoreet elit sagittis sit amet. Proin tincidunt egestas nibh at accumsan. Donec eleifend leo in aliquam mattis. Maecenas varius ligula felis, a fermentum dolor porta vitae. Mauris laoreet pellentesque metus quis tempus. Nullam vel nunc arcu. Vestibulum a malesuada metus.
+		</p>
+		<h2>
+			Fighting over dog toys&#133;{{excite}}
+		</h2>
+		<p ng-mouseenter="hoverColor()"  ng-mouseleave="exitHoverColor()" ng-class="colorChange">
+			In vel odio semper, commodo odio nec, pellentesque sem. Donec leo ex, venenatis et mauris ut, vulputate venenatis odio. Nulla facilisi. Maecenas vel rhoncus ex, nec consectetur ligula. Morbi dapibus justo non est gravida vehicula. Nam at ultrices mi, at dictum odio. Aenean egestas ultrices massa, ut tristique ipsum commodo at. Nam dignissim consectetur egestas. Etiam suscipit est est, ac sodales sapien egestas eget. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum sagittis lorem ut sapien blandit lacinia. Proin vel scelerisque dolor, quis commodo leo. Pellentesque finibus porttitor massa, id dictum lorem aliquet in. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vehicula rhoncus volutpat.
+		</p>
+		<p ng-mouseenter="hoverColor()" ng-mouseleave="exitHoverColor()"  ng-class="colorChange">
+			Quisque in lacus mattis, auctor diam eget, porta sem. Duis nulla lacus, consequat nec accumsan sed, viverra in risus. Morbi rhoncus magna risus, eget consequat nulla finibus quis. Nulla dignissim metus in augue dapibus, sed suscipit justo pharetra. Nulla facilisi. Sed id enim sollicitudin, ultricies neque quis, tempor arcu. Praesent at porttitor purus. Vivamus ac commodo lectus, sit amet placerat magna. Quisque non ultrices sapien. Nullam quis dapibus nibh. Integer ut posuere ex. Nulla facilisi. Sed eleifend tortor sed eros aliquet, ut vehicula nisl consectetur. Pellentesque congue lacus dapibus, pulvinar mauris eget, varius mauris. Nulla facilisi. Sed fringilla sodales lectus, eu imperdiet purus laoreet nec.
+		</p>
+		<script src="script.js"></script>
+	</body>
+</html>
